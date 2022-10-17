@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     position: absolute;
     /* display: flex; */
     height: 100vh;
     width: 100vw;
+    /* background: #262635; */
 }
 .container{
     align-items: center;
@@ -21,11 +23,12 @@ body{
 }
 .mobile-container .smartphone{
     height: 100vh;
-    object-fit: cover; 
+    object-fit: cover;
+    /* z-index: 1;  */
 }
 .screen-container{
     position: absolute;
-    background: rgb(255, 255, 255);
+    background: rgb(242, 242, 242);
     border-radius: 20px;
     width: 22vw;
     height: 86vh;
@@ -41,16 +44,94 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-top: 3px ;
 }
-.section1 .searchbar{
+.section1 .locationbar{
     position: relative;
     background-color: #35a5b6;
-    border: 1px solid #fff;
-    border-radius: 5px;
+    border: 1.5px solid #fff;
+    border-radius: 7px;
     color: #fff;
-    padding: 2px;
-    margin: 0 5px;
+    height: 80%;
+    padding: 2px 5px;
+    margin: 0 8px;
+    outline: none;
 }
-.section1 .searchbar::placeholder{
+.section1 .locationbar::placeholder{
     color: #fff;
+    font-weight: 500;
+}
+.section1 .notification , .location-gps , .shoping-cart{
+    margin: 0 5px;
+    max-height: 20px;
+    cursor: pointer;
+}
+.section2{
+    position: relative;
+    padding: 8px 10px;
+    display: flex;
+    top: 30px;
+    width: 100%;
+    height: 50px;
+    background: #35a5b6;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.section2 .search-bar{
+    position: relative;
+    display: flex;
+    padding: 4px 10px;
+    margin: 0 5px;
+    background: #fff;
+    width: 85%;
+    border-radius: 5px;
+    flex-direction: row;   
+}
+.section2 .search-bar .search-icon{
+    cursor: pointer;
+}
+.section2 input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.section2 input::placeholder{
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #aaa9a9;
+}
+.section2 .mic{
+    position: relative;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.section3{
+    position: absolute;
+    display: flex;
+    top: 80px;
+    width: 100%;
+    height: 160px;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+}
+.section3 .carousel{
+    background: #FFF;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 4px 4px;
+    border-radius: 5px;
+}
+.section3 .carousel img{
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
