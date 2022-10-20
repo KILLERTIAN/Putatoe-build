@@ -28,12 +28,52 @@ body{
 }
 .screen-container{
     position: absolute;
-    background: rgb(242, 242, 242);
+    background: rgb(243, 250, 255);
     border-radius: 20px;
     width: 22vw;
     height: 86vh;
     margin-right: 5px;
     margin-top: 5px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #fbfbfb;
+    box-shadow: 0px -2px 3px #d7d7d7;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.footer .footer-content{
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer .footer-content div{
+    max-width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.footer .footer-content div img{
+    height: 25px;
+    width: 25px;
+}
+.footer .footer-content .logo .logo-main{
+    width: 45px;
+    height: 100%;
+}
+.footer .footer-content div h4{
+    font-size: 0.7em;
+    color: #3abacd;
 }
 .section1{
     position: absolute;
@@ -134,4 +174,54 @@ body{
     width: 100%;
     object-fit: cover;
     height: 100%;
+}
+.section4{
+    position: absolute;
+    top: 240px;
+    /* background: red; */
+    width: 100%;
+    height: 300px;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: center;
+}
+.section4 .options-container{
+    position: relative;
+    height: 100%;
+    max-width: 100%;
+    /* margin: 5px; */
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px #b6c8d685;
+}
+.section4 .options-container .options{
+    position: relative;
+    
+}
+.section4 .options-container .options > div{
+    display: flex;
+    flex-direction: row;
+    max-width: 60px;
+    height: 95px;
+}
+.section4 .options-container .options .o{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.section4 .options-container .options img{
+    height: 60px;
+    width: 60px;
+}
+.section4 .options-container .options .opt1 img{
+    height: 50px;
+    width: 50px;
+}
+.section4 .options-container .options h5{
+    color: #3abacd;
+    font-size: 0.6em;
 }
