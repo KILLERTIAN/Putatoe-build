@@ -4,6 +4,8 @@ This is a copy of the Home page of a mobile application named Putatoe
 
 I don't own the design and components used to make this build and this is made solely for the purpose of education .
 
+Link :- https://killertian.github.io/Putatoe-build/
+
 Webpage preview
 
 ![image](https://user-images.githubusercontent.com/77867638/197578504-25c431db-a23b-4f92-9c79-e826aec7c64e.png)
@@ -14,7 +16,7 @@ Webpage preview
 
 MIT License
 
-Copyright (c) 2022 Om Sharma
+Copyright (c) 2023 Om Sharma
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
